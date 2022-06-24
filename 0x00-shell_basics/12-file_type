@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type touch /tmp/iamafile
+file /tmp/iamafile
