@@ -9,4 +9,5 @@ The project is done as requirement at **ALX Full stack software development**
 |------------------|:----------------------------------------------------------:|
 `0-hello_world`|A command to print "Hello, World"|
 `cat /etc/passwd`|A command to display the contents of the `/etc/passwd` file
+`cat /etc/passwd /etc/hosts`| Display contents of two files `/etc/passed` and `/etc/hosts`
 
