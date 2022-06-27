@@ -1,4 +1,4 @@
-#Shell I/O Redirections and filters
+# Shell I/O Redirections and filters
 The project is done as requirement at **ALX Full stack software development**
 
 ## Technologies used
