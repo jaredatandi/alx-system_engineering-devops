@@ -7,5 +7,5 @@ The project is done as requirement at **ALX Full stack software development**
 
 |File    	   |Description							|
 |------------------|:----------------------------------------------------------:|
-0-hello_world|A command to print "Hello, World"|
+`0-hello_world`|A command to print "Hello, World"|
 
