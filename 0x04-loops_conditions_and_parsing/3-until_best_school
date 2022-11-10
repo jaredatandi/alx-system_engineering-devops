@@ -6,4 +6,4 @@ until [ $counter -gt 10 ]
 do
 	echo "Best School"
 	(( counter+=1 ))
-done
+done 
