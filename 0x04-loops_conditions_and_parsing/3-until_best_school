@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Print Best school 10 times using Untill
 
 counter=1
 
