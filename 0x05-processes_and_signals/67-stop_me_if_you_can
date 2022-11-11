@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Kill the inifity and beyond script without using kill
+pkill -f '7-highlander'
