@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A script to print out the content of a directory
+
+for i in *; do
+	echo "$i" | cut -d '-' -f2
+done
+
