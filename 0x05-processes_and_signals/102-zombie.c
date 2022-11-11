@@ -10,12 +10,12 @@ int main(void)
 {
 	int i = 0;
 	pid_t ret = 0;
-	
+
 	for (i = 0; i < 5; i++)
 	{
 		ret = fork();
 		if (ret < 0)
-			return 0;
+			return (0);
 		if (ret == 0)
 		{
 			printf("Zombie process created, PID: %d\n", getpid());
