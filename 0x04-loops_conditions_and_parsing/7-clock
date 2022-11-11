@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# A script to implement a clock using while
+
+hours=0
+while [[ $hours -le 12 ]]
+do
+	min=1
+	echo "Hour: $hours"
+	while [[ $min -le 59 ]]
+	do
+		echo $min
+		min=$(( min+=1 ))
+	done
+	hours=$(( hours+=1 ))
+done
