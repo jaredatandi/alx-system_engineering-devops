@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A script to communicate on telnet
+sudo nc -l 9
