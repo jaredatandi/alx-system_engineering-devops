@@ -2,5 +2,5 @@
 # install nginx to create html pages
 apt-get -y update
 apt-get -y install nginx
-echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
+echo "Hello World!" | sudo tee /usr/share/nginx/html/index.hmtl 
 sudo service nginx restart
