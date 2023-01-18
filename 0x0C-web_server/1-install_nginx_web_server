@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install Nginx on the server
+# install nginx to create html pages
 apt-get -y update
 apt-get -y install nginx
 echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
