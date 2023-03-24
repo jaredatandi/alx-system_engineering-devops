@@ -40,7 +40,7 @@ user_data = user_response.json()
 employee_name = user_data['name']
 
 # Display the results
-print(f'Employee {employee_name} is done with tasks({completed_tasks}/{total_tasks}):')
+print(f'Employee {employee_name} is done
+      with tasks({completed_tasks}/{total_tasks}): ')
 for title in completed_task_titles:
     print('\t ', title)
-
