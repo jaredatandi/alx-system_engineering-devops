@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-""" A module to get todo list
-
+"""
+A module to get todo list from a json api
+using a custom link
 """
 
 
