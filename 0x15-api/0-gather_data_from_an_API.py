@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+
 """
 A module to get todo list from a json api
 using a custom link
 """
 
-
 import requests
 import sys
+
 
 # Set up the API endpoint URL
 url = 'https://jsonplaceholder.typicode.com/todos'
