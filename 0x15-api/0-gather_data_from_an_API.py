@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """ A module to get todo list
 """
 
