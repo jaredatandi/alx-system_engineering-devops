@@ -1,0 +1,29 @@
+server {
+    listen 80;
+    server_name 52.201.158.201;
+
+    location /static/ {
+        alias /web_dynamic/static/ 
+    }
+
+    location /airbnb-onepage/ {
+        proxy_pass http://localhost:5000;
+        include proxy_params;
+    }
+
+    location /airbnb-dynamic/number_odd_or_even/ {
+        include proxy_params;
+        rewrite /airbnb-dynamic/(.*) $1 break;
+        proxy_pass http://localhost:5001/;
+    }
+
+    location /api/ {
+        include proxy_params;
+        proxy_pass http://localhost:5002/api/;
+    }
+
+    location / {
+        include proxy_params;
+	    proxy_pass http://localhost:5003/2-hbnb;
+    }
+}
