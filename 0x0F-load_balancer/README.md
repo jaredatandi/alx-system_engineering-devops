@@ -1,16 +1,33 @@
-# 0x0F. Load balancer
+# 0x0B. Web server
 
 ## Description
 What you should learn from this project:
 
+* What is the main role of a web server
+* What is a child process
+* Why web servers usually have a parent process and child processes
+* What are the main HTTP requests
+
 ---
 
-### [0. Double the number of webservers](./0-custom_http_response-header)
-* In this first task you need to configure web-02 to be identical to web-01. Fortunately, you built a Bash script during your web server project, and they’ll now come in handy to easily configure web-02. Remember, always try to automate your work!
+### [0. Transfer a file to your server](./0-transfer_file)
+* Write a Bash script that transfers a file from our client to a server:
 
 
-### [1. Install your load balancer](./1-install_load_balancer)
-* Install and configure HAproxy on your lb-01 server.
+### [1. Install nginx web server](./1-install_nginx_web_server)
+* 
+
+
+### [2. Setup a domain name](./2-setup_a_domain_name)
+* Gandi is one of the top 25 domain providers. They are known for the stability and quality of their DNS hosting solution. Holberton School partnered with Gandi so that you can learn about DNS.
+
+
+### [3. Redirection](./3-redirection)
+* Readme:
+
+
+### [4. Not found page 404](./4-not_found_page_404)
+* Configure your Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page.
 
 ---
 
